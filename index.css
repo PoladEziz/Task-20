@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  background: #3B5D50;
+  padding: 0 82px 0 177px;
+}
+.main nav {
+  width: 100%;
+  padding: 49px 0;
+  display: flex;
+}
+.main nav h1 {
+  margin-right: 433px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.main nav ul {
+  display: flex;
+}
+.main nav ul li {
+  display: flex;
+  margin-top: 11px;
+  list-style-type: none;
+}
+.main nav ul li a {
+  margin-right: 43px;
+  opacity: 0.5;
+  text-decoration: none;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.main nav .icon-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 21px;
+}
+.main nav .icon-1 .first {
+  width: 8px;
+  height: 10.199px;
+}
+.main nav .icon-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main .center {
+  display: flex;
+}
+.main .center .left-box {
+  margin-top: 70px;
+  margin-right: 12px;
+}
+.main .center .left-box h2 {
+  margin-bottom: 117px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.main .center .left-box .yellow-btn {
+  margin-right: 14px;
+  padding: 11px 35px;
+  border: none;
+  border-radius: 30px;
+  background: #F9BF29;
+  color: #2F2F2F;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.main .center .left-box .btn {
+  border: none;
+  padding: 11px 35px;
+  background: #3B5D50;
+  border-radius: 30px;
+  border: 2px solid rgba(255, 255, 255, 0.29);
+  color: #171515;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}/*# sourceMappingURL=index.css.map */
